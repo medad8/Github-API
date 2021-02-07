@@ -7,7 +7,28 @@
   </div>
 
   <!-- displaying the search button -->
- 
+  <div class="container">
+      <app-git-form (emitSearch)="searchGit($event)"></app-git-form>
+  </div>
+
+  <!-- displaying contents -->
+  <hr class="my-4">
+  <div class="container">
+    <div class="row">
+      <!-- display github info -->
+      <div class="col-md-7">           
+        <div class="card" style="width: 28rem;">
+          <div class="card-header">
+                <h4 class="text-center">GITHUB PROFILE DETAILS</h4> 
+          </div>
+          <ul class="list-group list-group-flush">
+            <div *ngFor="let github of githubs"> 
+              <div>
+                <li class="list-group-item">Name: &nbsp; {{github.name}}</li>
+                  <li class="list-group-item">Username: &nbsp; {{github.login}}</li>
+                    <li class="list-group-item">Bio: &nbsp; {{github.bio}}</li>  
+                      <li class="list-group-item">Public Repos:&nbsp; {{github.public_repos}}</li>
+                        
                     
                       <li class="list-group-item">Location:&nbsp;{{github.location}}</li>
                     <li class="list-group-item">Join Date:&nbsp; {{github.created_at |date}}</li>
