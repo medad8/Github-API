@@ -9,7 +9,7 @@
 </table>
 
 ## Demo
-Here is a working live demo :  https://github.com/medad8/Github-API/
+Here is a working live demo :  https://medad8.github.io/Github-API/
 
 ## Mobile support
 The GitHub-API is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
