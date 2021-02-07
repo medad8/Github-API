@@ -14,7 +14,7 @@ export class GitDetailsComponent implements OnInit {
   constructor(public Gitservice: ServiceService) { }
 
   ngOnInit() {
-    this.searchGit("");
+    this.searchGit("medad8");
   }  
 
   searchGit(searchTerm){
