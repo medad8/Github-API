@@ -40,7 +40,7 @@ To fix a bug or enhance an existing module, follow these steps:
 ## License 
 [MIT](https://github.com/medad8/Github-API/blob/master/LICENSE.md)
 
- © [](##)
+ © [](https://github.com/medad8/Github-API)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
