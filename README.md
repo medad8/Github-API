@@ -38,7 +38,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - 
 
 ## License 
-[MIT](##/blob/master/LICENSE.md)
+[MIT](https://github.com/medad8/Github-API/blob/master/LICENSE.md)
 
  © [](##)
 
