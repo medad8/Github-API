@@ -35,7 +35,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - [ Angular ](https://angular.io/tutorial) - Tour of Heroes app and tutorial
 
 ## Author
-- 
+- Medad Wuoddorry
 
 ## License 
 [MIT](https://github.com/medad8/Github-API/blob/master/LICENSE.md)
